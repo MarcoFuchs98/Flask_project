@@ -27,7 +27,7 @@ print(f"Mean Squared Error (MSE): {mse:.2f}")
 print(f"R² Score: {r2:.2f}")
 
 # Guardar el modelo con pickle
-with open("random_forest_diabetes_model.pkl", "wb") as f:
+with open("modelo.pkl", "wb") as f:
     pickle.dump(model, f)
 
-print("Modelo guardado como 'random_forest_diabetes_model.pkl'")
+print("Modelo guardado como 'modelo.pkl'")
